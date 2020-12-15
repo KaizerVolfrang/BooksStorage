@@ -17,7 +17,7 @@ namespace BooksProject.Providers
             _connection = connection;
         }
 
-        public User GetAll()
+        public User Get(string login)
         {
             var result = new User();
 
@@ -31,7 +31,8 @@ namespace BooksProject.Providers
                     [Login] = @Login
                 ",
                     _connection);
-                using(var reader = command.ExecuteReader())
+                command.Parameters.AddWithValue("@Login", login);
+                using (var reader = command.ExecuteReader())
                 {
                     while (reader.Read())
                     {

@@ -46,11 +46,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Book.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\AutorisationService.cs" />
+    <Compile Include="Providers\BooksProvider.cs" />
+    <Compile Include="Providers\StorageContext.cs" />
     <Compile Include="Providers\UsersProvider.cs" />
+    <Compile Include="Views\BooksForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\BooksForm.Designer.cs">
+      <DependentUpon>BooksForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BooksFormEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\BooksFormEditor.Designer.cs">
+      <DependentUpon>BooksFormEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\SignInForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +87,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\BooksForm.resx">
+      <DependentUpon>BooksForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BooksFormEditor.resx">
+      <DependentUpon>BooksFormEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\SignInForm.resx">
       <DependentUpon>SignInForm.cs</DependentUpon>
     </EmbeddedResource>

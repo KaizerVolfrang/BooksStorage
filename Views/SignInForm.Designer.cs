@@ -76,6 +76,7 @@
             this.signInButton.TabIndex = 4;
             this.signInButton.Text = "Войти";
             this.signInButton.UseVisualStyleBackColor = true;
+            this.signInButton.Click += new System.EventHandler(this.signInButton_Click);
             // 
             // closeButton
             // 

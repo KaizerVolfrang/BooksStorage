@@ -1,0 +1,12 @@
+C:\Users\Ronin\source\repos\BooksProject\bin\Debug\BooksProject.exe.config
+C:\Users\Ronin\source\repos\BooksProject\bin\Debug\BooksProject.exe
+C:\Users\Ronin\source\repos\BooksProject\bin\Debug\BooksProject.pdb
+C:\Users\Ronin\source\repos\BooksProject\obj\Debug\BooksProject.csprojAssemblyReference.cache
+C:\Users\Ronin\source\repos\BooksProject\obj\Debug\BooksProject.Properties.Resources.resources
+C:\Users\Ronin\source\repos\BooksProject\obj\Debug\BooksProject.Views.SignInForm.resources
+C:\Users\Ronin\source\repos\BooksProject\obj\Debug\BooksProject.csproj.GenerateResource.cache
+C:\Users\Ronin\source\repos\BooksProject\obj\Debug\BooksProject.exe
+C:\Users\Ronin\source\repos\BooksProject\obj\Debug\BooksProject.pdb
+C:\Users\Ronin\source\repos\BooksProject\obj\Debug\BooksProject.Views.MainForm.resources
+C:\Users\Ronin\source\repos\BooksProject\obj\Debug\BooksProject.Views.BooksForm.resources
+C:\Users\Ronin\source\repos\BooksProject\obj\Debug\BooksProject.Views.BooksFormEditor.resources

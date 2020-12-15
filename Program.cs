@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BooksProject.Providers;
+using BooksProject.Views;
 
 namespace BooksProject
 {
@@ -16,7 +18,11 @@ namespace BooksProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            var context = new StorageContext();
+            var view = new SignInForm(context);
+
+            Application.Run(view);
         }
     }
 }
