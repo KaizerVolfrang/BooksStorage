@@ -68,10 +68,8 @@ namespace BooksProject.Views
             var books = _context.booksProvider.GetAll();
             var booksFormEditor = new BooksFormEditor(books);
             var res = booksFormEditor.ShowDialog(selectedBook);
-            if (res != DialogResult.OK)
-            {
-                return;
-            }
+            if (res != DialogResult.OK)           
+                return;  
             _context.booksProvider.Update(booksFormEditor.book);
             RefreshData();
         }

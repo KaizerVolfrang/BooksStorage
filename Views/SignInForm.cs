@@ -26,7 +26,7 @@ namespace BooksProject.Views
             var result = _context.AutorisationService.SignIn(login, password);
             if (result == null)
             {
-                MessageBox.Show("Erorr");
+                MessageBox.Show("Введите правильный логин и пароль");
             }
             else
             {

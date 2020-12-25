@@ -59,11 +59,13 @@ namespace BooksProject.Views
                 return;
             }
             DialogResult = DialogResult.OK;
+            Close();
         }
 
         private void rejectButton_Click(object sender, EventArgs e)
         {
             DialogResult = DialogResult.Cancel;
+            Close();
         }
     }
 }
